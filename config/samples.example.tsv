@@ -1,0 +1,6 @@
+id	type	bam	bai	vcf	tbi	case
+SAMPLE_BULK_A	bulk	/path/to/data/SAMPLE_BULK_A.bam	/path/to/data/SAMPLE_BULK_A.bam.bai	NA	NA	CASE_A
+SAMPLE_001	cell	/path/to/data/SAMPLE_001.bam	/path/to/data/SAMPLE_001.bam.bai	NA	NA	CASE_A
+SAMPLE_002	cell	/path/to/data/SAMPLE_002.bam	/path/to/data/SAMPLE_002.bam.bai	NA	NA	CASE_A
+SAMPLE_BULK_B	bulk	/path/to/data/SAMPLE_BULK_B.bam	/path/to/data/SAMPLE_BULK_B.bam.bai	NA	NA	CASE_B
+SAMPLE_003	cell	/path/to/data/SAMPLE_003.bam	/path/to/data/SAMPLE_003.bam.bai	NA	NA	CASE_B

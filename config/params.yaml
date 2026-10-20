@@ -1,0 +1,36 @@
+# ==========================================================
+# author: Meethila Gade
+# created on: 31-01-2026-15h-25m
+# github: https://github.com/brain-discourse
+# copyright: 2026
+# description: input_parameters
+# ==========================================================
+# Chromosome to analyze
+chrom: "chr3"
+locus_bed: "ref/locus.bed"
+cytoband_bed: "ref/cytoBand.bed"
+arm_bed: "ref/arm.bed"
+min_gq: 30
+min_dp_bulk: 20
+
+# Bulk allelic-balance filter
+maf_min: 0.30
+maf_max: 0.70
+
+min_cell_dp: 6
+bin_edges: [0, 5, 10, 15, 20, 30, 50, 1000]
+
+# Monoallelic if AF >= cut or <= (1-cut)
+monoallelic_af_cut: 0.90
+
+# Contiguity scan params
+window_nsnp: 50
+step_nsnp: 10
+min_run_len: 25
+min_cells_recur: 1
+min_usable_fraction: 0.6
+min_dir_mode_frac: 0.8
+require_same_direction: true
+
+out_prefix: "2026-01-31-chr3-r1_ado_loh"
+plot_title: "Chr3 ADO/LOH Analysis"
